@@ -61,6 +61,29 @@ h2 {
   line-height: 2.5rem;
 }
 
+h3 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+@media (min-width: 992px) {
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  h3 {
+    font-size: 60px;
+  }
+}
+
 @media (min-width: 992px) {
   h2 {
     font-size: 3.75rem;
