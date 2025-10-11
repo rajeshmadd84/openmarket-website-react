@@ -26,17 +26,15 @@ const Content_02 = () => {
               <div className='jos order-1' data-jos_animation='fade-right'>
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h2>Providing quick deploy solutions</h2>
+                  <p className='mb-3 text-sm font-semibold uppercase tracking-wider text-colorOrange'>For Farmers</p>
+                  <h2>Sell your next harvest instantly</h2>
                 </div>
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[21px]'>
                   <p className='mb-7 last:mb-0'>
-                    Our AI SaaS solutions can be quickly deployed, enabling
-                    users to start benefiting from AI capabilities without
-                    lengthy setup and development times in fast-paced
-                    industries.
+                  Openmarket’s farmer-first features empower farmers to take charge of their harvest, maximize returns, and secure the true value of their produce. 
                   </p>
-                  <ul className='flex flex-col gap-y-5 font-dmSans text-xl leading-tight tracking-tighter text-black lg:mt-12 lg:text-[28px]'>
+                    <ul className='flex flex-col gap-y-3 font-dmSans text-base leading-tight tracking-tighter text-black lg:mt-12 lg:text-lg'>
                     <li className='flex items-start gap-x-3'>
                       <div className='mt-[2.5px] h-[30px] w-[30px]'>
                         <img
@@ -47,7 +45,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Ready-to-use AI capabilities system
+                      Achieve Optimal, Market-Driven Prices.
                     </li>
                     <li className='flex items-start gap-x-3'>
                       <div className='mt-[2.5px] h-[30px] w-[30px]'>
@@ -59,7 +57,7 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Users can quickly integrate AI features
+                      No Hidden Costs and quick payout.
                     </li>
                     <li className='flex items-start gap-x-3'>
                       <div className='mt-[2.5px] h-[30px] w-[30px]'>
@@ -71,7 +69,19 @@ const Content_02 = () => {
                           className='h-full w-full'
                         />
                       </div>
-                      Time savings translate to cost savings
+                      Access Wider Markets. 
+                    </li>
+                    <li className='flex items-start gap-x-3'>
+                      <div className='mt-[2.5px] h-[30px] w-[30px]'>
+                        <img
+                          src='assets/img/th-1/check-circle.svg'
+                          alt='check-circle'
+                          width='30'
+                          height='30'
+                          className='h-full w-full'
+                        />
+                      </div>
+                      Selling Made Simple for You. 
                     </li>
                   </ul>
                 </div>

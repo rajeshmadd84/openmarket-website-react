@@ -29,20 +29,64 @@ const Content_01 = () => {
               >
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <h2>Accessible to a wider audience</h2>
+                  <p className='mb-3 text-sm font-semibold uppercase tracking-wider text-colorOrange'>For Buyers</p>
+                  <h2>Do your next trade instantly</h2>
                 </div>
                 {/* Section Content Block */}
                 <div className='text-lg leading-[1.4] lg:text-[21px]'>
                   <p className='mb-7 last:mb-0'>
-                    Advanced AI capabilities accessible to a broader audience,
-                    including small & medium-sized businesses and individuals
-                    who may not have the resources or expertise to develop.
+                    Openmarket's buyer-first features empower buyers to access quality produce, competitive pricing, and seamless transactions all in one platform.
                   </p>
-                  <p className='mb-7 last:mb-0'>
-                    Advanced AI capabilities accessible to a broader audience,
-                    including small & medium-sized businesses and individuals
-                    who may not have the resources or expertise to develop.
-                  </p>
+                  <ul className='flex flex-col gap-y-3 font-dmSans text-base leading-tight tracking-tighter text-black lg:mt-12 lg:text-lg'>
+                    <li className='flex items-start gap-x-3'>
+                      <div className='mt-[2.5px] h-[30px] w-[30px]'>
+                        <img
+                          src='assets/img/th-1/check-circle.svg'
+                          alt='check-circle'
+                          width='30'
+                          height='30'
+                          className='h-full w-full'
+                        />
+                      </div>
+                      Consistent quality at scale.
+                    </li>
+                    <li className='flex items-start gap-x-3'>
+                      <div className='mt-[2.5px] h-[30px] w-[30px]'>
+                        <img
+                          src='assets/img/th-1/check-circle.svg'
+                          alt='check-circle'
+                          width='30'
+                          height='30'
+                          className='h-full w-full'
+                        />
+                      </div>
+                      Shortlist by grade, spec, location, and delivery window.
+                    </li>
+                    <li className='flex items-start gap-x-3'>
+                      <div className='mt-[2.5px] h-[30px] w-[30px]'>
+                        <img
+                          src='assets/img/th-1/check-circle.svg'
+                          alt='check-circle'
+                          width='30'
+                          height='30'
+                          className='h-full w-full'
+                        />
+                      </div>
+                      Minimal Platform fee (simple & transparent).
+                    </li>
+                    <li className='flex items-start gap-x-3'>
+                      <div className='mt-[2.5px] h-[30px] w-[30px]'>
+                        <img
+                          src='assets/img/th-1/check-circle.svg'
+                          alt='check-circle'
+                          width='30'
+                          height='30'
+                          className='h-full w-full'
+                        />
+                      </div>
+                      Verified Sellers and assured quality.
+                    </li>
+                  </ul>
                 </div>
               </div>
               {/* Content Right Block */}

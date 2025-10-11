@@ -14,13 +14,12 @@ const Hero = () => {
                 <h4 className='jos slide-from-bottom mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px]'>
                   Agri Trading is fragmented
                 </h4>
-                <h3 className='jos slide-from-bottom mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px] text-colorOrangyRed'>
+                <h3 className='jos slide-from-bottom mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px] text-colorOrange'>
                   We are fixing it!
                 </h3>
                 <p className='jos slide-from-bottom mb-11 max-w-[700px] text-lg font-semibold sm:text-xl xl:max-w-[980px]'>
-                  Our AI SAAS tool is a cloud-based software delivery model. It
-                  helps businesses forecast demand for products and services and
-                  optimize inventory management and supply chain operations.
+                Openmarket changes everything, 
+                India's first fully digital platform transforming the way agricultural commodities are bought and sold.  
                 </p>
                 <div
                   className='jos flex flex-wrap justify-center gap-6 lg:justify-start'
@@ -28,13 +27,13 @@ const Hero = () => {
                 >
                   <Link
                     to='/contact'
-                    className='button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
+                    className='button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrange hover:border-colorOrangyRed hover:text-white'
                   >
                     Get started for free
                   </Link>
                   <Link
                     to='/about'
-                    className='button rounded-[50px] border-2 border-black bg-transparent py-4 text-black after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
+                    className='button rounded-[50px] border-2 border-black bg-transparent py-4 text-black after:bg-colorOrange hover:border-colorOrangyRed hover:text-white'
                   >
                     Learn more
                   </Link>
