@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // eslint-disable-next-line react/prop-types
 const Service_Block = ({ icon_black, icon_orange, title, text }) => {
   return (
-    <li className='group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black'>
+    <li className='group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-colorOMBlue'>
       <div className='relative mb-9 h-[70px] w-[70px]'>
         <img
           src={icon_black}
