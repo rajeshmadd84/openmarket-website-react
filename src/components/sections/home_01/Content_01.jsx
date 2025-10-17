@@ -29,7 +29,7 @@ const Content_01 = () => {
               >
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <p className='mb-3 text-sm font-semibold uppercase tracking-wider text-colorOrange'>For Buyers</p>
+                  <p className='mb-3 text-base font-semibold uppercase tracking-wider text-colorOMBlue'>For Buyers</p>
                   <h2>Do your next trade instantly</h2>
                 </div>
                 {/* Section Content Block */}

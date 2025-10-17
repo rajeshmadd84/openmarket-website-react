@@ -26,7 +26,7 @@ const Content_02 = () => {
               <div className='jos order-1' data-jos_animation='fade-right'>
                 {/* Section Content Block */}
                 <div className='mb-6'>
-                  <p className='mb-3 text-sm font-semibold uppercase tracking-wider text-colorOrange'>For Farmers</p>
+                  <p className='mb-3 text-base font-semibold uppercase tracking-wider text-colorOMBlue'>For Farmers</p>
                   <h2>Sell your next harvest instantly</h2>
                 </div>
                 {/* Section Content Block */}

@@ -19,7 +19,7 @@ const Working = () => {
               {/* Work Process List */}
               <div className='grid grid-flow-dense gap-6 lg:grid-cols-2 xl:grid-cols-3'>
                 {/* Work Process Item */}
-                <div className='order-1 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]'>
+                <div className='order-1 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#1B97FF]'>
                   <div className='h-10 w-auto xxl:h-[60px]'>
                     <img
                       src='assets/img/th-3/icon-black-work-process-1.svg'
@@ -33,7 +33,7 @@ const Working = () => {
                     Zero Brokerage
                   </div>
                   <p className='text-xl leading-[1.33] lg:text-2xl'>
-                    AI can analyze large volumes of data quickly and accurately
+                  Just a transparent & straightforward platform fee. No hidden costs.
                   </p>
                   <Link
                     rel='noopener noreferrer'
@@ -50,10 +50,10 @@ const Working = () => {
                 </div>
                 {/* Work Process Item */}
                 {/* Work Process Item */}
-                <div className='order-2 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]'>
+                <div className='order-2 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#1B97FF]'>
                   <div className='h-10 w-auto xxl:h-[60px]'>
                     <img
-                      src='assets/img/th-3/icon-black-work-process-2.svg'
+                      src='assets/img/th-3/icon-black-work-process-5.svg'
                       alt='working-process-icon'
                       width={60}
                       height={60}
@@ -64,8 +64,7 @@ const Working = () => {
                     Faster Trades
                   </div>
                   <p className='text-xl leading-[1.33] lg:text-2xl'>
-                    AI can automate repetitive and time consuming, reducing
-                    error
+                  Lightning-fast trades, real-time confirmations.
                   </p>
                   <Link
                     rel='noopener noreferrer'
@@ -82,7 +81,7 @@ const Working = () => {
                 </div>
                 {/* Work Process Item */}
                 {/* Work Process Item */}
-                <div className='order-3 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]'>
+                <div className='order-3 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#1B97FF]'>
                   <div className='h-10 w-auto xxl:h-[60px]'>
                     <img
                       src='assets/img/th-3/icon-black-work-process-3.svg'
@@ -96,7 +95,7 @@ const Working = () => {
                   True Price Discovery 
                   </div>
                   <p className='text-xl leading-[1.33] lg:text-2xl'>
-                    Businesses to deliver highly personalized high experiences
+                  Revealing the real market value of the produce.
                   </p>
                   <Link
                     rel='noopener noreferrer'
@@ -114,7 +113,7 @@ const Working = () => {
                 {/* Work Process Item */}
                 <div className='order-1 col-span-full grid gap-6 lg:grid-cols-2 xl:order-2 xl:grid-cols-2'>
                   {/* Work Process Item */}
-                  <div className='col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]'>
+                  <div className='col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#1B97FF]'>
                     <div className='h-10 w-auto xxl:h-[60px]'>
                       <img
                         src='assets/img/th-3/icon-black-work-process-4.svg'
@@ -128,8 +127,7 @@ const Working = () => {
                       Global reach
                     </div>
                     <p className='text-xl leading-[1.33] lg:text-2xl'>
-                      By automating tasks and optimizing processes, AI can lead
-                      to significant cost savings over time
+                    Expand your reach. Trade across the world.
                     </p>
                     <Link
                       rel='noopener noreferrer'
@@ -146,7 +144,7 @@ const Working = () => {
                   </div>
                   {/* Work Process Item */}
                   {/* Work Process Item */}
-                  <div className='col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]'>
+                  <div className='col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#1B97FF]'>
                     <div className='h-10 w-auto xxl:h-[60px]'>
                       <img
                         src='assets/img/th-3/icon-black-work-process-5.svg'
@@ -160,8 +158,7 @@ const Working = () => {
                       Risk Mitigation
                     </div>
                     <p className='text-xl leading-[1.33] lg:text-2xl'>
-                      AI can assess &amp; mitigate risks more accurately by
-                      analyzing vast amounts of data &amp; reduce risks
+                    Guard from volatility shocks through hedging.
                     </p>
                     <Link
                       rel='noopener noreferrer'

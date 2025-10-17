@@ -14,7 +14,7 @@ const Hero = () => {
                 <h4 className='jos slide-from-bottom mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px]'>
                   Agri Trading is fragmented
                 </h4>
-                <h3 className='jos slide-from-bottom mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px] text-colorOrange'>
+                <h3 className='jos slide-from-bottom mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px] text-colorOMBlue'>
                   We are fixing it!
                 </h3>
                 <p className='jos slide-from-bottom mb-11 max-w-[700px] text-lg font-semibold sm:text-xl xl:max-w-[980px]'>

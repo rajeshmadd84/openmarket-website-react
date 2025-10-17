@@ -39,6 +39,7 @@ export default {
         colorViolet: "#321CA4",
         colorGreen: "#39FF14",
         colorOrange: "#FF751F",
+        colorOMBlue: "#1B97FF",
       },
     },
   },
