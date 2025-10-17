@@ -343,6 +343,7 @@
   .site-menu-main {
     column-gap: 30px;
     flex-direction: row;
+    align-items: flex-end;
   }
 }
 
