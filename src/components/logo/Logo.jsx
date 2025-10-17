@@ -9,8 +9,8 @@ const LogoDark = ({ light }) => {
       <img
         src={light ? logoLight : logoDark}
         alt='AIMass'
-        width='96'
-        height='96'
+        width='240'
+        height='180'
       />
     </Link>
   );
