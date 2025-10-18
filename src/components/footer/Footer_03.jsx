@@ -5,7 +5,7 @@ const Footer_03 = () => {
     <footer id='section-footer-3'>
       <div className='bg-colorOMBlue text-white'>
         {/* Section Spacer */}
-        <div className='py-20 xl:py-[130px]'>
+        <div className='py-10 xl:py-[60px]'>
           {/* Footer Top */}
           <div>
             {/* Section Container */}
@@ -25,15 +25,22 @@ const Footer_03 = () => {
               </div>
               {/* Footer Content */}
               {/* Footer Contact */}
-              <div className='mt-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
-                <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
-                  <a href='mailto:connect@openmarket.ag'>connect@openmarket.ag</a>
+              <div className='mt-11 grid grid-cols-1 gap-8 md:grid-cols-3'>
+                <div className='text-left'>
+                  <h4 className='mb-3 text-lg font-bold text-white uppercase'>Email:</h4>
+                  <a href='mailto:connect@openmarket.ag' className='text-2xl font-semibold text-white transition-all duration-300 hover:text-colorOrangyRed'>
+                    connect@openmarket.ag
+                  </a>
                 </div>
-                <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
-                  <a href='tel:+91 9876543210'>+91 9876543210</a>
+                <div className='text-left'>
+                  <h4 className='mb-3 text-lg font-bold text-white uppercase'>Phone:</h4>
+                  <a href='tel:+91 9876543210' className='text-2xl font-semibold text-white transition-all duration-300 hover:text-colorOrangyRed'>
+                    +91 9876543210
+                  </a>
                 </div>
-                <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
-                  <address className='not-italic'>
+                <div className='text-left'>
+                  <h4 className='mb-3 text-lg font-bold text-white uppercase'>Address:</h4>
+                  <address className='not-italic text-2xl font-semibold text-white'>
                     4A, Ten Madhapur, Hyderabad, India
                   </address>
                 </div>
@@ -53,10 +60,10 @@ const Footer_03 = () => {
                 <div className='flex justify-center md:justify-start'>
                   <Link to='/' className='inline-block'>
                     <img
-                      src='assets/img/logo-light.png'
+                      src='assets/img/om-footer.svg'
                       alt='logo'
-                      width={96}
-                      height={24}
+                      width={192}
+                      height={48}
                     />
                   </Link>
                 </div>
