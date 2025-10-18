@@ -19,19 +19,19 @@ const Contact_Info = () => {
           <li className='flex flex-col gap-y-4 text-2xl font-bold'>
             Send us an email:
             <a
-              href='mailto:info@example.com'
+              href='mailto:contact@openmarket.ag'
               className='text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl'
             >
-              info@example.com
+              hello@openmarket.ag
             </a>
           </li>
           <li className='flex flex-col gap-y-4 text-2xl font-bold'>
             Give us a call:
             <a
-              href='tel:+880-1345-922210'
+              href='tel:+91 9876543210'
               className='text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl'
             >
-              +880 1345-922210
+              +91 9876543210
             </a>
           </li>
           <li className='flex flex-col gap-y-4 text-2xl font-bold'>
