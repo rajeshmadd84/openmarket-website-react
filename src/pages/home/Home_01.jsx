@@ -18,12 +18,6 @@ const Home_01 = () => {
       {/*<FunFact />
       <Pricing />
       <Testimonial_Section />*/}
-
-      {/* Body Background Shape 1 */}
-      <div className='orange-gradient-1 absolute -left-[15px] top-[61%] -z-[1] h-[400px] w-[400px] -rotate-[-9.022deg] rounded-[400px]'></div>
-
-      {/* Body Background Shape 2 */}
-      <div className='orange-gradient-2 absolute -left-[100px] top-[64%] -z-[1] h-[360px] w-[360px] -rotate-[-9.022deg] rounded-[360px]'></div>
     </main>
   );
 };

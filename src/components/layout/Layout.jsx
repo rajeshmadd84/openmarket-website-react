@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import Footer_01 from '../footer/Footer_01';
+import Footer_03 from '../footer/Footer_03';
 import Header from '../header/Header';
 
 const Layout = () => {
@@ -17,7 +17,7 @@ const Layout = () => {
       {/*...::: Main End :::... */}
 
       {/*...::: Footer Start :::... */}
-      <Footer_01 />
+      <Footer_03 />
       {/*...::: Footer End :::... */}
     </div>
   );

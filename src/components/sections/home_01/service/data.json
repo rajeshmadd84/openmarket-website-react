@@ -3,18 +3,21 @@
     "icon_black": "assets/img/th-1/service-icon-black-1.svg",
     "icon_orange": "assets/img/th-1/service-icon-orange-1.svg",
     "title": "Sampling & Dematerialization",
-    "text": "Each sample is graded, authenticated, and converted into a secure digital asset ready for trade."
+    "text": "Each sample is graded, authenticated, and converted into a secure digital asset ready for trade.",
+    "number": "1"
   },
   {
     "icon_black": "assets/img/th-1/service-icon-black-2.svg",
     "icon_orange": "assets/img/th-1/service-icon-orange-2.svg",
     "title": "Instant Trades & Digital Contracts",
-    "text": "With intelligent matchmaking and digital contracts, every trade occurs in real-time."
+    "text": "With intelligent matchmaking and digital contracts, every trade occurs in real-time.",
+    "number": "2"
   },
   {
     "icon_black": "assets/img/th-1/service-icon-black-3.svg",
     "icon_orange": "assets/img/th-1/service-icon-orange-3.svg",
     "title": "Smart Settlement & Instant tranfer",
-    "text": "This is an excellent option for people &amp; small businesses who are starting out."
+    "text": "This is an excellent option for people &amp; small businesses who are starting out.",
+    "number": "3"
   }
 ]

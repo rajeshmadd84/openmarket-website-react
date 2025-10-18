@@ -33,6 +33,7 @@
 .site-navbar .menu-block-wrapper {
   flex-grow: 1;
   align-items: center;
+  justify-content: flex-end;
 }
 
 @media (min-width: 992px) {
@@ -343,6 +344,7 @@
   .site-menu-main {
     column-gap: 30px;
     flex-direction: row;
+    justify-content: flex-end;
   }
 }
 
@@ -383,7 +385,7 @@
 
 .site-menu-main .nav-link-item {
   color: var(--heading-color);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   font-style: normal;
   letter-spacing: normal;

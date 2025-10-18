@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Footer_03 = () => {
   return (
     <footer id='section-footer-3'>
-      <div className='bg-black text-white'>
+      <div className='bg-colorOMBlue text-white'>
         {/* Section Spacer */}
         <div className='py-20 xl:py-[130px]'>
           {/* Footer Top */}
@@ -29,14 +29,14 @@ const Footer_03 = () => {
               {/* Footer Contact */}
               <div className='mt-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
                 <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
-                  <a href='mailto:example@gmail.com'>example@gmail.com</a>
+                  <a href='mailto:example@gmail.com'>connect@openmarket.ag</a>
                 </div>
                 <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
                   <a href='tel:+880-1345-922210'>+880 1345-922210</a>
                 </div>
                 <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
                   <address className='not-italic'>
-                    4140 Parker Rd. Mexico
+                    4A, Ten Madhapur, Hyderabad, India
                   </address>
                 </div>
               </div>
@@ -62,14 +62,11 @@ const Footer_03 = () => {
                     />
                   </Link>
                   <p>
-                    Our mission is to harness the power of AI to solve complex
-                    business challenges &amp; decision-makers with data-driven
-                    insights, and enhance user experiences across digital
-                    platforms.
+                    Our mission is to to Bring Millions of Indian farmers and all the related stake holdersinto Digital Agri trading ecosystem.
                   </p>
                   <p>
                     © Copyright {new Date().getFullYear()}, All Rights Reserved
-                    by Mthemeus
+                    by Openmarket.ag
                   </p>
                 </div>
                 {/* Footer Widget Item */}

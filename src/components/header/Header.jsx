@@ -9,7 +9,7 @@ const Header = ({ loginCSS, signupCSS, navColor, light }) => {
 
   return (
     <header
-      className='site-header site-header--absolute is--white py-3'
+      className='site-header site-header--absolute is--white py-3 mt-4'
       id='sticky-menu'
     >
       <div className='global-container'>
@@ -24,27 +24,17 @@ const Header = ({ loginCSS, signupCSS, navColor, light }) => {
             color={navColor}
           />
           {/* Header Navigation */}
-          {/* Header User Event */}
-          <div className='flex items-center gap-6'>
-            <Link to='/login' className={loginCSS}>
-              Login
-            </Link>
-            <Link to='/signup' className={signupCSS}>
-              Sign up free
-            </Link>
-            {/* Responsive Off-canvas Menu Button */}
-            <div className='block lg:hidden'>
-              <button
-                onClick={() => setMobileMenu(true)}
-                className={`mobile-menu-trigger ${
-                  light ? 'is-white' : 'is-black'
-                }`}
-              >
-                <span />
-              </button>
-            </div>
+          {/* Responsive Off-canvas Menu Button */}
+          <div className='block lg:hidden'>
+            <button
+              onClick={() => setMobileMenu(true)}
+              className={`mobile-menu-trigger ${
+                light ? 'is-white' : 'is-black'
+              }`}
+            >
+              <span />
+            </button>
           </div>
-          {/* Header User Event */}
         </div>
       </div>
     </header>
