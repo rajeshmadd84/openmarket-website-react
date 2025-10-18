@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Working = () => {
   return (
     <section id='section-working-process'>
-      <div className='bg-[#EDEDE0] px-5 sm:px-[50px]'>
+      <div className='px-5 sm:px-[50px]'>
         <div className='relative z-[1] mx-auto max-w-full bg-black'>
           {/* Section Spacer */}
           <div className='py-16 sm:px-10 md:px-20 lg:py-20 xl:px-[100px] xl:py-[130px]'>
