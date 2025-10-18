@@ -24,16 +24,25 @@ const Header = ({ loginCSS, signupCSS, navColor, light }) => {
             color={navColor}
           />
           {/* Header Navigation */}
-          {/* Responsive Off-canvas Menu Button */}
-          <div className='block lg:hidden'>
-            <button
-              onClick={() => setMobileMenu(true)}
-              className={`mobile-menu-trigger ${
-                light ? 'is-white' : 'is-black'
-              }`}
+          {/* Header Button and Mobile Menu */}
+          <div className='flex items-center gap-6'>
+            <Link
+              to='/contact'
+              className='hidden lg:inline-block button rounded-[50px] border-2 border-colorOMBlue bg-colorOMBlue px-6 py-3 text-white transition-all duration-300 hover:bg-transparent hover:text-colorOMBlue'
             >
-              <span />
-            </button>
+              Get started
+            </Link>
+            {/* Responsive Off-canvas Menu Button */}
+            <div className='block lg:hidden'>
+              <button
+                onClick={() => setMobileMenu(true)}
+                className={`mobile-menu-trigger ${
+                  light ? 'is-white' : 'is-black'
+                }`}
+              >
+                <span />
+              </button>
+            </div>
           </div>
         </div>
       </div>

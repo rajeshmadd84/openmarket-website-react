@@ -1,8 +1,8 @@
 [
   {
     "img": "assets/img/th-1/team-member-img-1.jpg",
-    "name": "Mr. Abraham Maslo",
-    "info": "Chief AI Officer",
+    "name": "Bhanu Pratap P",
+    "info": "CEO",
     "facebook": "http://www.facebook.com",
     "twitter": "http://www.twitter.com",
     "linkedin": "http://www.linkedin.com",
@@ -10,8 +10,8 @@
   },
   {
     "img": "assets/img/th-1/team-member-img-2.jpg",
-    "name": "Willium Robert",
-    "info": "Data Engineer",
+    "name": "Manjunath S",
+    "info": "COO",
     "facebook": "http://www.facebook.com",
     "twitter": "http://www.twitter.com",
     "linkedin": "http://www.linkedin.com",
@@ -19,8 +19,8 @@
   },
   {
     "img": "assets/img/th-1/team-member-img-3.jpg",
-    "name": "Henry Fayol",
-    "info": "Research Scientist",
+    "name": "Nipun Krishnan",
+    "info": "CSO",
     "facebook": "http://www.facebook.com",
     "twitter": "http://www.twitter.com",
     "linkedin": "http://www.linkedin.com",
@@ -28,8 +28,8 @@
   },
   {
     "img": "assets/img/th-1/team-member-img-4.jpg",
-    "name": "Henry Martine",
-    "info": "AI Researchers",
+    "name": "Gowrav Reddy",
+    "info": "CMO",
     "facebook": "http://www.facebook.com",
     "twitter": "http://www.twitter.com",
     "linkedin": "http://www.linkedin.com",
@@ -37,7 +37,7 @@
   },
   {
     "img": "assets/img/th-1/team-member-img-5.jpg",
-    "name": "Jack Fox",
+    "name": "Tharun Sai Kalimili",
     "info": "NLP Expert",
     "facebook": "http://www.facebook.com",
     "twitter": "http://www.twitter.com",
@@ -46,7 +46,7 @@
   },
   {
     "img": "assets/img/th-1/team-member-img-6.jpg",
-    "name": "Adam Smith",
+    "name": "Sai Teja",
     "info": "Project Manager",
     "facebook": "http://www.facebook.com",
     "twitter": "http://www.twitter.com",
@@ -55,7 +55,7 @@
   },
   {
     "img": "assets/img/th-1/team-member-img-7.jpg",
-    "name": "Joo Bitler",
+    "name": "Sai Vignesh",
     "info": "Cyber Expert",
     "facebook": "http://www.facebook.com",
     "twitter": "http://www.twitter.com",
@@ -64,7 +64,7 @@
   },
   {
     "img": "assets/img/th-1/team-member-img-8.jpg",
-    "name": "Homi Corn",
+    "name": "Mounica",
     "info": "HR Manager",
     "facebook": "http://www.facebook.com",
     "twitter": "http://www.twitter.com",
