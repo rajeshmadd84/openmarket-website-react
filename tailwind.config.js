@@ -35,7 +35,7 @@ export default {
       colors: {
         colorCodGray: "#191919",
         colorOrangyRed: "#FF751F",
-        colorLinenRuffle: "#EFEAE3",
+        colorLinenRuffle: "rgba(27, 151, 255, 0.15)",
         colorViolet: "#321CA4",
         colorGreen: "#39FF14",
         colorOrange: "#FF751F",

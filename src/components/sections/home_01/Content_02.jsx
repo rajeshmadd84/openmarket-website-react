@@ -10,16 +10,18 @@ const Content_02 = () => {
             <div className='grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-20 xl:grid-cols-[minmax(0,_1.2fr)_1fr] xl:gap-28 xxl:gap-32'>
               {/* Content Left Block */}
               <div
-                className='jos order-2 overflow-hidden rounded-md'
-                data-jos_animation='fade-left'
+                className='jos order-2 mt-16 rounded-md md:mt-0'
+                data-jos_animation='fade-up'
               >
-                <img
-                  src='assets/img/th-1/content-image-2.jpg'
-                  alt='content-image-2'
-                  width='526'
-                  height='450'
-                  className='h-auto w-full'
-                />
+                <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
+                  <img
+                    src='assets/img/th-2/2.svg'
+                    alt='th2-content-img-2.png'
+                    width={320}
+                    height={564}
+                    className='absolute bottom-0 left-1/2 h-[564px] w-[320px] -translate-x-1/2'
+                  />
+                </div>
               </div>
               {/* Content Left Block */}
               {/* Content Right Block */}

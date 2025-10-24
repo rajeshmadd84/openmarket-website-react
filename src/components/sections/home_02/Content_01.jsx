@@ -13,7 +13,7 @@ const Content_01 = () => {
             >
               <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
                 <img
-                  src='assets/img/th-2/th2-content-img-1.png'
+                  src='assets/img/th-2/1.svg'
                   alt='th2-content-img-1.png'
                   width={320}
                   height={564}

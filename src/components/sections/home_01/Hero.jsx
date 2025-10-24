@@ -27,7 +27,7 @@ const Hero = () => {
                 >
                   <Link
                     to='/contact'
-                    className='button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrange hover:border-colorOrangyRed hover:text-white'
+                    className='button rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOMBlue hover:border-colorOMBlue hover:text-white'
                   >
                     Get started for free
                   </Link>

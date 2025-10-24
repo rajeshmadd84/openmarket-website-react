@@ -1,5 +1,6 @@
 import Breadcrumb from '../../components/breadcrumb/Breadcrumb';
 import Hero from '../../components/sections/inner-pages/about/Hero';
+import Timeline from '../../components/sections/inner-pages/about/Timeline';
 import FunFact from '../../components/sections/inner-pages/about/FunFact';
 import Content_02 from '../../components/sections/inner-pages/about/Content_02';
 import CoreValue from '../../components/sections/inner-pages/about/CoreValue';
@@ -16,6 +17,9 @@ const About = () => {
         {/*...::: About Us Section Start :::... */}
         <Hero />
         {/*...::: About Us Section End :::... */}
+        {/*...::: Timeline Section Start :::... */}
+        <Timeline />
+        {/*...::: Timeline Section End :::... */}
         {/*...::: About Funfact Start :::... */}
         <FunFact />
         {/*...::: About Funfact Start :::... */}

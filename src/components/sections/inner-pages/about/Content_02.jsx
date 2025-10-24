@@ -26,20 +26,16 @@ const Content_02 = () => {
             <div className='jos order-1' data-jos_animation='fade-right'>
               {/* Section Content Block */}
               <div className='mb-6'>
-                <h2>Delivering the best solutions with AI</h2>
+                <h2>True digital Agri-trading platform</h2>
               </div>
               {/* Section Content Block */}
               <div className='text-lg leading-[1.4] lg:text-[21px]'>
                 <p className='mb-7 last:mb-0'>
-                  Our mission is to empower businesses with AI-powered solutions
-                  that increase productivity, improve decision-making and drive
-                  growth.
+               Openmarket is built to solve one of agriculture’s biggest inefficiencies: the lack of transparency, traceability, and trust in farm-level trading. 
                 </p>
                 <p className='mb-7 last:mb-0'>
-                  Since 2016 we have been passionate about helping our clients
-                  harness With a team of AI experts and data scientists their
-                  full potential &amp; stay competitive in an increasingly
-                  digital world.
+                Our journey began in 2021 with Cropwings, an Agriculture drone aggregator platform that mapped over 5 lakh acres and gathered 20 Lakhs data points. Leveraging this deep understanding of India’s Agriculture, 
+                we evolved into Open Market, a seamless, transparent, and empowering platform that dematerializes farm produce, enabling farmers and buyers to trade instantly. 
                 </p>
                 <Link
                   to='/contact'

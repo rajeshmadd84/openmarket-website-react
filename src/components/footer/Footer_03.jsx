@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Footer_03 = () => {
   return (
     <footer id='section-footer-3'>
-      <div className='bg-colorOMBlue text-white'>
+      <div className='bg-colorLinenRuffle text-black'>
         {/* Section Spacer */}
         <div className='py-10 xl:py-[60px]'>
           {/* Footer Top */}
@@ -14,7 +14,7 @@ const Footer_03 = () => {
               <div className='grid-col-1 grid items-center gap-10 md:grid-cols-2'>
                 {/* Section Content Block */}
                 <div>
-                  <h1 className='font-raleway text-white'>Let’s talk</h1>
+                  <h1 className='font-raleway text-Black'>Let’s talk</h1>
                 </div>
                 {/* Section Content Block */}
                 <div className='jos flex flex-col gap-10 md:gap-[50px]'>
@@ -27,20 +27,20 @@ const Footer_03 = () => {
               {/* Footer Contact */}
               <div className='mt-11 grid grid-cols-1 gap-8 md:grid-cols-3'>
                 <div className='text-left'>
-                  <h4 className='mb-3 text-lg font-bold text-white uppercase'>Email:</h4>
-                  <a href='mailto:connect@openmarket.ag' className='text-2xl font-semibold text-white transition-all duration-300 hover:text-colorOrangyRed'>
+                  <h4 className='mb-3 text-lg font-bold text-Black uppercase'>Email:</h4>
+                  <a href='mailto:connect@openmarket.ag' className='text-2xl font-semibold text-black transition-all duration-300 hover:text-colorOrangyRed'>
                     connect@openmarket.ag
                   </a>
                 </div>
                 <div className='text-left'>
-                  <h4 className='mb-3 text-lg font-bold text-white uppercase'>Phone:</h4>
-                  <a href='tel:+91 9876543210' className='text-2xl font-semibold text-white transition-all duration-300 hover:text-colorOrangyRed'>
+                  <h4 className='mb-3 text-lg font-bold text-Black uppercase'>Phone:</h4>
+                  <a href='tel:+91 9876543210' className='text-2xl font-semibold text-black transition-all duration-300 hover:text-colorOrangyRed'>
                     +91 9876543210
                   </a>
                 </div>
                 <div className='text-left'>
-                  <h4 className='mb-3 text-lg font-bold text-white uppercase'>Address:</h4>
-                  <address className='not-italic text-2xl font-semibold text-white'>
+                  <h4 className='mb-3 text-lg font-bold text-Black uppercase'>Address:</h4>
+                  <address className='not-italic text-2xl font-semibold text-black'>
                     4A, Ten Madhapur, Hyderabad, India
                   </address>
                 </div>
@@ -73,7 +73,7 @@ const Footer_03 = () => {
                     rel='noopener noreferrer'
                     target='_blank'
                     to='http://www.facebook.com'
-                    className='flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 hover:bg-colorViolet'
+                    className='flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-colorOMBlue transition-all duration-300 hover:bg-colorViolet'
                   >
                     <img
                       src='assets/img/th-1/facebook-icon-white.svg'
@@ -86,7 +86,7 @@ const Footer_03 = () => {
                     rel='noopener noreferrer'
                     target='_blank'
                     to='http://www.twitter.com'
-                    className='flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 hover:bg-colorViolet'
+                    className='flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-colorOMBlue transition-all duration-300 hover:bg-colorViolet'
                   >
                     <img
                       src='assets/img/th-1/twitter-icon-white.svg'
@@ -99,7 +99,7 @@ const Footer_03 = () => {
                     rel='noopener noreferrer'
                     target='_blank'
                     to='http://www.instagram.com'
-                    className='flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 hover:bg-colorViolet'
+                    className='flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-colorOMBlue transition-all duration-300 hover:bg-colorViolet'
                   >
                     <img
                       src='assets/img/th-1/instagram-icon-white.svg'
@@ -112,7 +112,7 @@ const Footer_03 = () => {
                     rel='noopener noreferrer'
                     target='_blank'
                     to='http://www.linkedin.com'
-                    className='flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 hover:bg-colorViolet'
+                    className='flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-colorOMBlue transition-all duration-300 hover:bg-colorViolet'
                   >
                     <img
                       src='assets/img/th-1/linkedin-icon-white.svg'
