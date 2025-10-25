@@ -30,7 +30,7 @@ const About = () => {
         <CoreValue />
         {/*...::: Core Value Section End :::... */}
         {/*...::: Team Section Start :::... */}
-        <Team />
+ {/*<Team />*/}
         {/*...::: Team Section End :::... */}
         {/*...::: About Contact Section Start :::... */}
         <Contact />
