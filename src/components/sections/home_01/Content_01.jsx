@@ -39,7 +39,7 @@ const Content_01 = () => {
                   <p className='mb-7 last:mb-0'>
                     Openmarket's buyer-first features empower buyers to access quality produce, competitive pricing, and seamless transactions all in one platform.
                   </p>
-                  <ul className='flex flex-col gap-y-3 font-dmSans text-base leading-tight tracking-tighter text-black lg:mt-12 lg:text-lg'>
+                  <ul className='flex flex-col gap-y-3 font-dmSans text-lg leading-tight tracking-tighter text-black lg:mt-12 lg:text-xl'>
                     <li className='flex items-start gap-x-3'>
                       <div className='mt-[2.5px] h-[30px] w-[30px]'>
                         <img

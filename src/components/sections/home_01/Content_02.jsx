@@ -36,7 +36,7 @@ const Content_02 = () => {
                   <p className='mb-7 last:mb-0'>
                   Openmarket’s farmer-first features empower farmers to take charge of their harvest, maximize returns, and secure the true value of their produce. 
                   </p>
-                    <ul className='flex flex-col gap-y-3 font-dmSans text-base leading-tight tracking-tighter text-black lg:mt-12 lg:text-lg'>
+                    <ul className='flex flex-col gap-y-3 font-dmSans text-lg leading-tight tracking-tighter text-black lg:mt-12 lg:text-xl'>
                     <li className='flex items-start gap-x-3'>
                       <div className='mt-[2.5px] h-[30px] w-[30px]'>
                         <img
