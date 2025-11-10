@@ -13,6 +13,14 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
     setMobileSubMenuSub('');
   };
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      handleMenu();
+    }
+  };
+
   const handleSubMenu = (e, id) => {
     e.preventDefault();
     setMobileSubMenu(id);
@@ -77,9 +85,22 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
         <ul className={`site-menu-main ${color}`}>
           {/* Global navbar */}
           <li className='nav-item'>
-            <Link to='/services' className='nav-link-item'>
-              Services
-            </Link>
+            <button
+              type='button'
+              onClick={() => scrollToSection('for-traders')}
+              className='nav-link-item'
+            >
+              For Traders
+            </button>
+          </li>
+          <li className='nav-item'>
+            <button
+              type='button'
+              onClick={() => scrollToSection('for-farmers')}
+              className='nav-link-item'
+            >
+              For Farmers
+            </button>
           </li>
           <li className='nav-item'>
             <Link to='/about' className='nav-link-item'>

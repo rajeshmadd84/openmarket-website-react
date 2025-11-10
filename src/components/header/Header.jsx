@@ -9,7 +9,7 @@ const Header = ({ loginCSS, signupCSS, navColor, light }) => {
 
   return (
     <header
-      className='site-header site-header--absolute is--white py-3 mt-4'
+      className='site-header sticky top-0 z-50 bg-white py-2 shadow-sm'
       id='sticky-menu'
     >
       <div className='global-container'>

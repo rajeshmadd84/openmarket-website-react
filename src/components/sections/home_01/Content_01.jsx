@@ -2,7 +2,7 @@ const Content_01 = () => {
   return (
     <>
       {/*...::: Content Section Start_1 :::... */}
-      <section id='content-section-1'>
+      <section id='for-traders' className='scroll-mt-24'>
         {/* Section Spacer */}
         <div className='pb-20 xl:pb-[150px]'>
           {/* Section Container */}

@@ -28,10 +28,10 @@ const Contact_Info = () => {
           <li className='flex flex-col gap-y-4 text-2xl font-bold'>
             Give us a call:
             <a
-              href='tel:+91 9876543210'
+              href='tel:+918886662901'
               className='text-2xl font-normal leading-loose hover:text-colorOrangyRed lg:text-3xl'
             >
-              +91 9876543210
+              +91 8886662901
             </a>
           </li>
           <li className='flex flex-col gap-y-4 text-2xl font-bold'>
