@@ -1,8 +1,38 @@
+import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Hero = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const handleEnded = () => {
+      setTimeout(() => {
+        if (video) {
+          video.currentTime = 0;
+          const replayPromise = video.play();
+          if (replayPromise !== undefined) {
+            replayPromise.catch(() => {/* autoplay prevented */});
+          }
+        }
+      }, 3000);
+    };
+
+    const playPromise = video.play();
+    if (playPromise !== undefined) {
+      playPromise.catch(() => {/* autoplay prevented */});
+    }
+    video.addEventListener('ended', handleEnded);
+
+    return () => {
+      video.removeEventListener('ended', handleEnded);
+    };
+  }, []);
+
   return (
     <>
       {/*...::: Hero Section Start :::... */}
@@ -43,13 +73,17 @@ const Hero = () => {
                 className='jos hero-img overflow-hidden rounded-2xl bg-black order-1 lg:order-2'
                 data-jos_animation='zoom'
               >
-                <img
-                  src='assets/img/th-1/hero-dashboard.jpg'
-                  alt='hero-dashboard'
-                  width='1296'
-                  height='640'
-                  className='h-auto w-full'
-                />
+                <video
+                  ref={videoRef}
+                  src='assets/video/hero.mp4'
+                  poster='assets/img/th-1/hero-dashboard.png'
+                  className='h-full w-full object-cover'
+                  autoPlay
+                  muted
+                  playsInline
+                >
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
 
