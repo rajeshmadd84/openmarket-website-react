@@ -17,12 +17,12 @@ const About = () => {
         {/*...::: About Us Section Start :::... */}
         <Hero />
         {/*...::: About Us Section End :::... */}
-        {/*...::: Timeline Section Start :::... */}
+        {/*...::: Timeline Section Start :::...
         <Timeline />
-        {/*...::: Timeline Section End :::... */}
-        {/*...::: About Funfact Start :::... */}
+        Timeline Section End :::... */}
+        {/*...::: About Funfact Start :::...
         <FunFact />
-        {/*...::: About Funfact Start :::... */}
+        About Funfact Start :::... */}
         {/*...::: Content Section Start :::... */}
         <Content_02 />
         {/*...::: Content Section End :::... */}
@@ -33,7 +33,7 @@ const About = () => {
  {/*<Team />*/}
         {/*...::: Team Section End :::... */}
         {/*...::: About Contact Section Start :::... */}
-        <Contact />
+       {/* <Contact />*/}
         {/*...::: About Contact Section End :::... */}
       </main>
     </>

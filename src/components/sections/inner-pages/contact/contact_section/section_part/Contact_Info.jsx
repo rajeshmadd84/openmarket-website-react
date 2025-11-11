@@ -42,7 +42,7 @@ const Contact_Info = () => {
                   rel='noopener noreferrer'
                   target='_blank'
                   to='http://www.facebook.com'
-                  className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
+                  className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOMBlue'
                 >
                   <img
                     src='assets/img/th-1/facebook-icon-white.svg'
@@ -65,7 +65,7 @@ const Contact_Info = () => {
                   rel='noopener noreferrer'
                   target='_blank'
                   to='http://www.twitter.com'
-                  className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
+                  className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOMBlue'
                 >
                   <img
                     src='assets/img/th-1/twitter-icon-white.svg'
@@ -88,7 +88,7 @@ const Contact_Info = () => {
                   rel='noopener noreferrer'
                   target='_blank'
                   to='http://www.linkedin.com'
-                  className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
+                  className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOMBlue'
                 >
                   <img
                     src='assets/img/th-1/linkedin-icon-white.svg'
@@ -111,7 +111,7 @@ const Contact_Info = () => {
                   rel='noopener noreferrer'
                   target='_blank'
                   to='http://www.instagram.com'
-                  className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
+                  className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOMBlue'
                 >
                   <img
                     src='assets/img/th-1/instagram-icon-white.svg'

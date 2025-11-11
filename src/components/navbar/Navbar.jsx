@@ -13,12 +13,15 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
     setMobileSubMenuSub('');
   };
 
-  const scrollToSection = (id) => {
+  const scrollToSection = (event, id) => {
     const element = document.getElementById(id);
     if (element) {
+      if (event) {
+        event.preventDefault();
+      }
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      handleMenu();
     }
+    handleMenu();
   };
 
   const handleSubMenu = (e, id) => {
@@ -85,30 +88,30 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
         <ul className={`site-menu-main ${color}`}>
           {/* Global navbar */}
           <li className='nav-item'>
-            <button
-              type='button'
-              onClick={() => scrollToSection('for-traders')}
+            <Link
+              to='/#for-traders'
               className='nav-link-item'
+              onClick={(e) => scrollToSection(e, 'for-traders')}
             >
               For Traders
-            </button>
+            </Link>
           </li>
           <li className='nav-item'>
-            <button
-              type='button'
-              onClick={() => scrollToSection('for-farmers')}
+            <Link
+              to='/#for-farmers'
               className='nav-link-item'
+              onClick={(e) => scrollToSection(e, 'for-farmers')}
             >
               For Farmers
-            </button>
+            </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/about' className='nav-link-item'>
+            <Link to='/about' className='nav-link-item' onClick={handleMenu}>
               About
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/contact' className='nav-link-item'>
+            <Link to='/contact' className='nav-link-item' onClick={handleMenu}>
               Contact
             </Link>
           </li>

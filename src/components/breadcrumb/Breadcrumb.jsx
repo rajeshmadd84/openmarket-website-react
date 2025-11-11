@@ -9,13 +9,8 @@ const Breadcrumb = ({ title, link = title }) => {
         {/* Section Container */}
         <div className='global-container'>
           <div className='breadcrumb-block'>
-            <h1 className='breadcrumb-title'>{title}</h1>
-            <ul className='breadcrumb-nav'>
-              <li>
-                <Link to='/'>Home</Link>
-              </li>
-              <li>{link}</li>
-            </ul>
+            <h1 className='breadcrumb-title text-colorOMBlue'>{title}</h1>
+           
           </div>
         </div>
         {/* Section Container */}

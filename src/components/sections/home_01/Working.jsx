@@ -35,18 +35,7 @@ const Working = () => {
                   <p className='text-xl leading-[1.33] lg:text-2xl'>
                   Just a transparent & straightforward platform fee. No hidden costs.
                   </p>
-                  <Link
-                    rel='noopener noreferrer'
-                    to='/service-details'
-                    className='h-[30px] w-[30px]'
-                  >
-                    <img
-                      src='assets/img/th-3/icon-white-arrow-right.svg'
-                      alt='icon-white-arrow-right'
-                      width={30}
-                      height={30}
-                    />
-                  </Link>
+                 
                 </div>
                 {/* Work Process Item */}
                 {/* Work Process Item */}
@@ -66,18 +55,7 @@ const Working = () => {
                   <p className='text-xl leading-[1.33] lg:text-2xl'>
                   Lightning-fast trades, real-time confirmations.
                   </p>
-                  <Link
-                    rel='noopener noreferrer'
-                    to='/service-details'
-                    className='h-[30px] w-[30px]'
-                  >
-                    <img
-                      src='assets/img/th-3/icon-white-arrow-right.svg'
-                      alt='icon-white-arrow-right'
-                      width={30}
-                      height={30}
-                    />
-                  </Link>
+                  
                 </div>
                 {/* Work Process Item */}
                 {/* Work Process Item */}
@@ -97,18 +75,7 @@ const Working = () => {
                   <p className='text-xl leading-[1.33] lg:text-2xl'>
                   Revealing the real market value of the produce.
                   </p>
-                  <Link
-                    rel='noopener noreferrer'
-                    to='/service-details'
-                    className='h-[30px] w-[30px]'
-                  >
-                    <img
-                      src='assets/img/th-3/icon-white-arrow-right.svg'
-                      alt='icon-white-arrow-right'
-                      width={30}
-                      height={30}
-                    />
-                  </Link>
+                 
                 </div>
                 {/* Work Process Item */}
                 <div className='order-1 col-span-full grid gap-6 lg:grid-cols-2 xl:order-2 xl:grid-cols-2'>
@@ -129,18 +96,7 @@ const Working = () => {
                     <p className='text-xl leading-[1.33] lg:text-2xl'>
                     Expand your reach. Trade across the world.
                     </p>
-                    <Link
-                      rel='noopener noreferrer'
-                      to='/service-details'
-                      className='h-[30px] w-[30px]'
-                    >
-                      <img
-                        src='assets/img/th-3/icon-white-arrow-right.svg'
-                        alt='icon-white-arrow-right'
-                        width={30}
-                        height={30}
-                      />
-                    </Link>
+                   
                   </div>
                   {/* Work Process Item */}
                   {/* Work Process Item */}
@@ -160,18 +116,7 @@ const Working = () => {
                     <p className='text-xl leading-[1.33] lg:text-2xl'>
                     Guard from volatility shocks through hedging.
                     </p>
-                    <Link
-                      rel='noopener noreferrer'
-                      to='/service-details'
-                      className='h-[30px] w-[30px]'
-                    >
-                      <img
-                        src='assets/img/th-3/icon-white-arrow-right.svg'
-                        alt='icon-white-arrow-right'
-                        width={30}
-                        height={30}
-                      />
-                    </Link>
+                    
                   </div>
                   {/* Work Process Item */}
                 </div>

@@ -40,7 +40,7 @@ const Contact_From = () => {
               htmlFor='contact-name'
               className='text-lg font-bold leading-[1.6]'
             >
-              Enter your name <b className='text-colorOrangyRed'>*</b>
+              Enter your name <b className='text-colorOMBlue'>*</b>
             </label>
             <input
               type='text'
@@ -49,7 +49,7 @@ const Contact_From = () => {
               onChange={handleInput}
               id='contact-name'
               placeholder='John Doe'
-              className='rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed'
+              className='rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOMBlue'
               required=''
             />
           </div>
@@ -60,7 +60,7 @@ const Contact_From = () => {
               htmlFor='contact-email'
               className='text-lg font-bold leading-[1.6]'
             >
-              Email address <b className='text-colorOrangyRed'>*</b>
+              Email address <b className='text-colorOMBlue'>*</b>
             </label>
             <input
               type='email'
@@ -69,7 +69,7 @@ const Contact_From = () => {
               onChange={handleInput}
               id='contact-email'
               placeholder='example@openmarket.ag'
-              className='rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed'
+              className='rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOMBlue'
               required=''
             />
           </div>
@@ -84,7 +84,7 @@ const Contact_From = () => {
               htmlFor='contact-phone'
               className='text-lg font-bold leading-[1.6]'
             >
-              Phone number <b className='text-colorOrangyRed'>*</b>
+              Phone number <b className='text-colorOMBlue'>*</b>
             </label>
             <input
               type='tel'
@@ -93,7 +93,7 @@ const Contact_From = () => {
               onChange={handleInput}
               id='contact-phone'
               placeholder='+91 9876543210'
-              className='rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed'
+              className='rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOMBlue'
               required=''
             />
           </div>
@@ -113,7 +113,7 @@ const Contact_From = () => {
               onChange={handleInput}
               id='contact-company'
               placeholder='EX India trading pvt ltd'
-              className='rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed'
+              className='rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOMBlue'
               required=''
             />
           </div>
@@ -128,14 +128,14 @@ const Contact_From = () => {
               htmlFor='contact-message'
               className='text-lg font-bold leading-[1.6]'
             >
-              Message <b className='text-colorOrangyRed'>*</b>
+              Message <b className='text-colorOMBlue'>*</b>
             </label>
             <textarea
               name='message'
               value={input.message}
               onChange={handleInput}
               id='contact-message'
-              className='min-h-[180px] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOrangyRed'
+              className='min-h-[180px] rounded-[10px] border border-gray-300 bg-white px-6 py-[18px] font-bold text-black outline-none transition-all placeholder:text-slate-500 focus:border-colorOMBlue'
               placeholder='Write your message here...'
               required=''
             />
@@ -145,7 +145,7 @@ const Contact_From = () => {
         <div>
           <button
             type='submit'
-            className='button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white'
+            className='button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOMBlue hover:border-colorOMBlue hover:text-white'
           >
             Send your message
           </button>

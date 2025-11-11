@@ -40,6 +40,7 @@ export default {
         colorGreen: "#39FF14",
         colorOrange: "#FF751F",
         colorOMBlue: "#1B97FF",
+        lightBlue: "#024b89",
       },
     },
   },

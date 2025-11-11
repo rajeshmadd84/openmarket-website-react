@@ -61,12 +61,7 @@ const Hero = () => {
                   >
                     Get started for free
                   </Link>
-                  <Link
-                    to='/about'
-                    className='button rounded-[50px] border-2 border-black bg-transparent py-4 text-black after:bg-colorOrange hover:border-colorOrangyRed hover:text-white'
-                  >
-                    Learn more
-                  </Link>
+                 
                 </div>
               </div>
               <div
