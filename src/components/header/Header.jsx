@@ -1,19 +1,19 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Navbar from '../navbar/Navbar';
-import Logo from '../logo/Logo';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import Navbar from "../navbar/Navbar";
+import Logo from "../logo/Logo";
 
 // eslint-disable-next-line react/prop-types
-const Header = ({ loginCSS, signupCSS, navColor, light }) => {
+const Header = ({ navColor, light }) => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
     <header
-      className='site-header sticky top-0 z-50 bg-white py-2 shadow-sm'
-      id='sticky-menu'
+      className="site-header fixed top-0 left-0 right-0 z-50 h-20 bg-white shadow-sm"
+      id="sticky-menu"
     >
-      <div className='global-container'>
-        <div className='flex items-center justify-between gap-x-8'>
+      <div className="global-container h-full">
+        <div className="flex h-full items-center justify-between gap-x-8">
           {/* Header Logo */}
           <Logo light={light} />
           {/* Header Logo */}
@@ -25,19 +25,19 @@ const Header = ({ loginCSS, signupCSS, navColor, light }) => {
           />
           {/* Header Navigation */}
           {/* Header Button and Mobile Menu */}
-          <div className='flex items-center gap-6'>
+          <div className="flex items-center gap-6">
             <Link
-              to='/contact'
-              className='hidden lg:inline-block button rounded-[50px] border-2 border-colorOMBlue bg-colorOMBlue px-6 py-3 text-white transition-all duration-300 hover:bg-transparent hover:text-colorOMBlue'
+              to="/contact"
+              className="hidden lg:inline-block button rounded-[50px] border-2 border-colorOMBlue bg-colorOMBlue px-6 py-3 text-white transition-all duration-300 hover:bg-transparent hover:text-colorOMBlue"
             >
               Get started
             </Link>
             {/* Responsive Off-canvas Menu Button */}
-            <div className='block lg:hidden'>
+            <div className="block lg:hidden">
               <button
                 onClick={() => setMobileMenu(true)}
                 className={`mobile-menu-trigger ${
-                  light ? 'is-white' : 'is-black'
+                  light ? "is-white" : "is-black"
                 }`}
               >
                 <span />

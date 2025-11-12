@@ -2,7 +2,7 @@ const Promo = () => {
   return (
     <section id='promo-section'>
       {/* Section Spacer */}
-      <div className='pb-20 pt-20 xl:pb-[130px] xl:pt-[150px]'>
+      <div className='pb-32 pb-20 pt-20 xl:pb-[130px] xl:pt-[150px]'>
         {/* Section Container */}
         <div className='global-container'>
           {/* Section Content Block */}

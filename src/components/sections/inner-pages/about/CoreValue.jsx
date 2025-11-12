@@ -2,7 +2,7 @@ const CoreValue = () => {
   return (
     <section id='core-value'>
       {/* Section Spacer */}
-      <div className='jos mx-5 rounded-[50px] bg-black px-[20px] py-20 sm:px-[50px] md:mx-[50px] lg:px-[100px] xl:py-[130px]'>
+      <div className='jos mx-0 mb-24 rounded-[50px] bg-black px-[20px] py-20 sm:px-[50px] md:mx-[50px] lg:px-[100px] xl:py-[130px]'>
         {/* Section Container */}
         <div className='global-container'>
           {/* Section Content Block */}
